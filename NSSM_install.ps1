@@ -9,7 +9,7 @@ $Binary = (Get-Command Powershell).Definition
 # -File     : the location to main.ps1
 # -listener : AlwaysON Availability Group Listener
 # -FilePath : C:\logfiles\SQLServerDBHealthChecker.log
-$Arguments = '-ExecutionPolicy Bypass -NoProfile -File "C:\bts\bts-dbhealth-checker\main.ps1" -listener "YourListenerName" -FilePath "C:\logfiles\SQLServerDBHealthChecker.log"'
+$Arguments = '-ExecutionPolicy Bypass -NoProfile -File "C:\dbhealth-checker\main.ps1" -listener "YourListenerName" -FilePath "C:\logfiles\SQLServerDBHealthChecker.log"'
 
 $description = "SQL Server database health Checker"
 
